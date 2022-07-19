@@ -1,0 +1,11 @@
+Filename: main.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    86     55.9 MiB     55.9 MiB           1       @profile
+    87                                             def process(self):
+    88    204.1 MiB    148.1 MiB           1           self.read_csv_data()        
+    89    204.4 MiB      0.3 MiB           1           self.merge_dfs()           
+    90    207.3 MiB      2.9 MiB           1           self.read_cheaters_db()    
+    91    208.1 MiB      0.8 MiB           1           self.filter_cheaters()     
+    92    208.3 MiB      0.2 MiB           1           self.output_results()      
